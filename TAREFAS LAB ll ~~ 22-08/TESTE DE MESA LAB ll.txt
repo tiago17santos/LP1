@@ -1,0 +1,99 @@
+==========================================TESTE DE MESA==========================================
+
+
+TAREFA 1 -
+ano = 24 | mes = 5 | dia = 10 | resultado = 8910
+
+
+TAREFA 2 -
+eleitores =  100 | votosBrancos = 25 | votosNulos = 10 | votosValidos = 30 | resultado = "Os votos brancos equivalem a: 25,00% dos eleitores
+		 									Os votos nulos equivalem a: 10,00% dos eleitores
+		 									Os votos validos equivalem a: 30,00% dos eleitores"
+
+
+
+TAREFA 3 -
+salario = 100 | perc = 10 | resultado = "Seu novo salario é: R$ 110,00"
+
+
+
+TAREFA 4 -
+custoFabrica = 100 | percDistribuidor = 0.28 | impostos = 0.45 | resultado = "O custo do consumidor é: R$173,00"
+
+
+
+TAREFA 5 -
+qtdVendas = 5 | valorVendas = 100 | salarioFixo = 200 | comissaoVenda = 1 | resultado = "Salario final: R$ 210,00"
+
+
+
+TAREFA 6 -
+grausF = 65,5 | resultado = "65.5°F é: 18.61°C"
+
+
+
+TAREFA 7 -
+n = 10 | resultado = "É 10!"
+
+
+
+TAREFA 8 -
+n = 0 | resultado = "Positivo"
+
+
+
+TAREFA 9 -
+qtdMaca = 10 | resultado = 13
+
+
+
+TAREFA 10 -
+n1 = 7 | n2 = 3 | resultado = "Reprovado"
+
+
+
+TAREFA 11 -
+anoAtual = 2024 | anoNasc = 2012 | resultado = "Não pode votar"
+
+
+
+TAREFA 12 -
+n1 = 5 | n2 = 6 | resultado = "O maior é o 6"
+
+
+
+TAREFA 13 -
+n1 = 10 | n2 = 5 | resultado = 5.0~~10.0
+
+
+
+TAREFA 14 -
+terminou = "n" | | dataInicio = "15-08-2024" | dataFim = "16-08-2024" | inicio = 5 | fim = 4 | resultado = "Horário Incorreto!! Digite o horário do fim do jogo no 1° dia novamente:" | fim = 6 | inicioS = 6 | fimS = 7 | resultado = "O jogo durou: 2 horas."
+
+
+
+TAREFA 15 -
+hrsTrab = 41 | hrSalario = 5 | resultado = "Após 1.0 hrs extras trabalhadas, seu salario é: 207,50"
+
+
+
+TAREFA 16 -
+jan = 15000 | fev = 23000 | mar = 17000 | despesa = jan+fev+mar | media = (despesa)/3; | resultado = "O valor total das despesas é: R$55000,00 e a média mensal é: R$18333,33"
+
+
+TAREFA 17 - 
+p1 = 7 | e1 = 7 | e2 = 8 | api = 6 | ptExtra = "n" | sub = 5 | resultado = "A média do aluno é: 7,60"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
