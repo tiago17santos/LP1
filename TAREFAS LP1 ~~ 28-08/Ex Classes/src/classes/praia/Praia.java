@@ -4,16 +4,14 @@ public class Praia {
 
     String nome;
     String localizacao;
-    String tipo;
     double tamanho;
 
     public Praia() {
     }
 
-    public Praia(String nome, String localizacao, String tipo, double tamanho) {
+    public Praia(String nome, String localizacao,  double tamanho) {
         this.nome = nome;
         this.localizacao = localizacao;
-        this.tipo = tipo;
         this.tamanho = tamanho;
 
     }
@@ -24,5 +22,9 @@ public class Praia {
 
     public void atualizarTamanho(double tamanho) {
         this.tamanho = tamanho;
+    }
+
+    public String toString(){
+        return "\nNome: " + this.nome + ", Localização: " + this.localizacao + ", Tamanho: " + this.tamanho + " metros.";
     }
 }

@@ -7,6 +7,8 @@ public class Escola {
     String nome;
     List<String> alunos;
 
+    public Escola() {
+    }
 
     public Escola(String nome) {
         this.nome = nome;
@@ -40,19 +42,12 @@ public class Escola {
         }
     }
 
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-
-    public String getNome() {
-        return nome;
-    }
-
-
     public void mostrarInfo() {
         System.out.println("Nome da Escola: " + nome);
         listarAlunos();
+    }
+
+    public String toString(){
+        return "\nNome: " + this.nome + ", Alunos: " + this.alunos;
     }
 }

@@ -3,7 +3,6 @@ package classes.bola;
 public class Bola {
 
     String cor;
-    String marca;
     String tipo;
     double arMax = 15.0;
     double arAtual;
@@ -11,9 +10,9 @@ public class Bola {
     public Bola() {
     }
 
-    public Bola(String cor, String marca, String tipo, double arAtual) {
+    public Bola(String cor, String tipo, double arAtual) {
         this.cor = cor;
-        this.marca = marca;
+
         this.tipo = tipo;
         this.arAtual = arAtual;
     }
@@ -35,5 +34,9 @@ public class Bola {
         }else {
             System.out.println("Não é possivel esvaziar mais a bola..");
         }
+    }
+
+    public String toString(){
+        return "\nCor: " + this.cor + ", Tipo: " + this.tipo + ", Ar máximo suportado: " + this.arMax + ", Ar atual: " + this.arAtual + ".";
     }
 }

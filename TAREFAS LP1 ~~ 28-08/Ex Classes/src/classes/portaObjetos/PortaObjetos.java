@@ -21,15 +21,15 @@ public class PortaObjetos {
     public void addObjeto(String objeto) {
 
         objetos.add(objeto);
-        System.out.println("Aluno " + objeto + " adicionado com sucesso.");
+        System.out.println( objeto + " adicionado com sucesso.");
     }
 
     public void removeObjeto(String objeto) {
 
         if (objetos.remove(objeto)){
-            System.out.println("Aluno " + objeto + " removido com sucesso.");
+            System.out.println( objeto + " removido com sucesso.");
         } else {
-            System.out.println("Aluno " + objeto + " não encontrado.");
+            System.out.println( objeto + " não encontrado.");
         }
     }
 
@@ -38,8 +38,8 @@ public class PortaObjetos {
             System.out.println("Nenhum objeto encontrado.");
         } else {
             System.out.println("Objetos cadastrados: ");
-            for (String aluno : objetos) {
-                System.out.println("- " + aluno);
+            for (String obj : objetos) {
+                System.out.println("- " + obj);
             }
         }
     }

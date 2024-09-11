@@ -43,5 +43,9 @@ public class Moto {
 
     }
 
+    public String toString(){
+        return "\nCor: " + this.cor + ", Marca: " + this.marca + ", Preço: " + this.preco + " reais, Potência: " + this.potencia + " Velocidade: " + this.velocidade + "km/h.";
+    }
+
 
 }

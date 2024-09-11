@@ -2,40 +2,34 @@ package classes.roupa;
 
 public class Roupa {
 
-    String tipo;
     String cor;
     String tamanho;
     double preco;
+    boolean apertada;
 
     public Roupa() {
     }
 
-    public Roupa(String tipo, String cor, String tamanho, double preco) {
-        this.tipo = tipo;
+    public Roupa(boolean apertada, String cor, String tamanho, double preco) {
+        this.apertada = apertada;
         this.cor = cor;
         this.tamanho = tamanho;
         this.preco = preco;
 
     }
 
-    public void atualizarTipo(String tipo) {
-        this.tipo = tipo;
-        System.out.println("A temperatura está agora a " + this.tipo + " °C.");
+    public void apertar() {
+        System.out.println("A roupa foi apertada.");
     }
 
-    public void atualizarComprimento(double comprimento) {
-        this.comprimento = comprimento;
-        System.out.println("O comprimento está agora a " + this.comprimento + " m.");
+    public void atualizarPreco(double valor) {
+        this.preco = valor;
+        System.out.println("O preço agora é " + this.preco + " m.");
     }
 
-    public void atualizarLargura(double largura) {
-        this.largura = largura;
-        System.out.println("O comprimento está agora a " + this.comprimento + " m.");
-    }
-
-    public void atualizarTipo(String tipo) {
-        this.tipo = tipo;
-        System.out.println("O tipo atual é: " + this.tipo + " .");
+    public void atualizarCor(String cor) {
+        this.cor = cor;
+        System.out.println("A nova cor é: " + this.cor + " .");
 
     }
 }

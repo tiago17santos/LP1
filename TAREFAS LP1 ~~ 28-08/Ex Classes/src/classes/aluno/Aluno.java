@@ -1,43 +1,35 @@
 package classes.aluno;
 
-import java.util.Date;
-
-
 public class Aluno {
 
     String nome;
     String cpf;
     String email;
     int idade;
-    Date dtNascimento;
-    double altura;
+
 
 
     public Aluno() {
     }
 
-    public Aluno(String cpf, String email, int idade, Date dtNascimento, double altura, String nome) {
+    public Aluno(String nome, String cpf, String email, int idade) {
         this.cpf = cpf;
         this.email = email;
         this.idade = idade;
-        this.dtNascimento = dtNascimento;
-        this.altura = altura;
+
         this.nome = nome;
     }
 
-    public String alterarNome (String novoNome){
-        return this.nome = novoNome;
+    public String alterarEmail (String email){
+        return this.email = email;
     }
 
     public int atualizaIdade (int novaIdade){
         return this.idade = novaIdade;
     }
 
-
-    //importar validacpf
-
-
-
-
+    public String toString() {
+        return "\nNome: " + this.nome + ", CPF: " + this.cpf + ", E-mail: " + this.email + ", Idade: " + this.idade +".";
+    }
 
 }
