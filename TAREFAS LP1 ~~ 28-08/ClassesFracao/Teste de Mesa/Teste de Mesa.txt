@@ -1,0 +1,33 @@
+-------------Calculo 1-------------
+
+f1 (n/d) = 3/4
+f2 (n/d) = 1/2
+resultadoSoma = 5/4
+resultadoSubtracao = 1/4
+resultadoMultiplicacao = 3/8
+resultadoDivisao = 3/2
+
+
+-------------Calculo 2-------------
+
+f1 (n/d) = 5/4
+f2 (n/d) = 0/2
+saída: Exception in thread "main" java.lang.IllegalArgumentException: Não é possível dividir por zero
+
+
+-------------Calculo 3-------------
+
+f1 (n/d) = 3/0
+f2 (n/d) = 8/2
+saída: Exception in thread "main" java.lang.IllegalArgumentException: Denominador não pode ser zero 
+
+
+
+-------------Calculo 4-------------
+
+f1 (n/d) = 13/4
+f2 (n/d) = 5/2
+resultadoSoma = 23/4
+resultadoSubtracao = 3/4
+resultadoMultiplicacao = 65/8
+resultadoDivisao = 13/10
