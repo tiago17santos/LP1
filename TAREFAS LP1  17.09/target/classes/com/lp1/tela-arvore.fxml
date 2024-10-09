@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lp1.TelaArvoreController">
+   <children>
+      <Button fx:id="btnGerar" layoutX="272.0" layoutY="257.0" mnemonicParsing="false" onAction="#onClickGerar" text="Gerar" />
+      <Button fx:id="btnProx" layoutX="497.0" layoutY="327.0" mnemonicParsing="false" onAction="#onClickProx" text="Próximo" />
+      <Label fx:id="lblEspecie" layoutX="82.0" layoutY="81.0" text="Especie:" />
+      <Label fx:id="lblLocalizacao" layoutX="266.0" layoutY="81.0" text="Localização: " />
+      <Label fx:id="lblAltura" layoutX="160.0" layoutY="166.0" text="Altura: " />
+      <Label fx:id="lblLargura" layoutX="386.0" layoutY="166.0" text="Largura: " />
+      <Label fx:id="lblEstAno" layoutX="453.0" layoutY="90.0" text="Estação do Ano: " />
+      <Text layoutX="63.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <TextField fx:id="txtEspecie" layoutX="38.0" layoutY="112.0" />
+      <TextField fx:id="txtLocalizacao" layoutX="236.0" layoutY="111.0" />
+      <TextField fx:id="txtEstAno" layoutX="422.0" layoutY="112.0" />
+      <TextField fx:id="txtAltura" layoutX="104.0" layoutY="193.0" />
+      <TextField fx:id="txtLargura" layoutX="335.0" layoutY="193.0" />
+      <Label layoutX="253.0" layoutY="28.0" text="TELA DA ARVORE" />
+      <Label fx:id="lblRes" layoutX="68.0" layoutY="331.0" />
+      <Button fx:id="btnVoltar" layoutX="427.0" layoutY="327.0" mnemonicParsing="false" onAction="#onClickVoltar" text="Voltar" />
+   </children>
+</AnchorPane>

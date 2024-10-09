@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lp1.TelaBicicletaController">
+   <children>
+      <Label fx:id="lblCor" layoutX="109.0" layoutY="89.0" text="Cor:" />
+      <Label fx:id="lblMarca" layoutX="453.0" layoutY="89.0" text="Marca: " />
+      <Label fx:id="lblPreco" layoutX="109.0" layoutY="168.0" text="Preço: " />
+      <Label fx:id="lblVelo" layoutX="434.0" layoutY="168.0" text="Velocidade: " />
+      <Label fx:id="lblRes" layoutX="58.0" layoutY="334.0" />
+      <Button fx:id="btnGerar" layoutX="274.0" layoutY="258.0" mnemonicParsing="false" onAction="#onClickGerar" text="Gerar" />
+      <Button fx:id="btnProx" layoutX="489.0" layoutY="321.0" mnemonicParsing="false" onAction="#onClickProx" text="Próximo" />
+      <TextField fx:id="txtCor" layoutX="59.0" layoutY="114.0" />
+      <TextField fx:id="txtMarca" layoutX="392.0" layoutY="114.0" />
+      <TextField fx:id="txtPreco" layoutX="59.0" layoutY="202.0" />
+      <TextField fx:id="txtVelo" layoutX="392.0" layoutY="201.0" />
+      <Label layoutX="255.0" layoutY="29.0" text="TELA BICICLETA" />
+      <Button fx:id="btnVoltar" layoutX="415.0" layoutY="321.0" mnemonicParsing="false" onAction="#onClickVoltar" text="Voltar" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lp1.TelaRoupaController">
+   <children>
+      <Label layoutX="256.0" layoutY="29.0" text="TELA DA ROUPA" />
+      <Label fx:id="lblCor" layoutX="106.0" layoutY="87.0" text="Cor:" />
+      <Label fx:id="lblTam" layoutX="433.0" layoutY="99.0" text="Tamanho" />
+      <Label fx:id="lblPreco" layoutX="106.0" layoutY="188.0" text="Preço" />
+      <Label fx:id="lblApertada" layoutX="432.0" layoutY="173.0" text="Apertada:" />
+      <Label fx:id="lblRes" layoutX="61.0" layoutY="347.0" />
+      <TextField fx:id="txtCor" layoutX="61.0" layoutY="120.0" />
+      <TextField fx:id="txtTam" layoutX="383.0" layoutY="123.0" />
+      <TextField fx:id="txtPreco" layoutX="61.0" layoutY="211.0" />
+      <Button fx:id="btnVerificar" layoutX="274.0" layoutY="263.0" mnemonicParsing="false" onAction="#onClickVerificar" text="Verificar" />
+      <Button fx:id="btnVoltar" layoutX="436.0" layoutY="343.0" mnemonicParsing="false" onAction="#onClickVoltar" text="Voltar" />
+      <Button fx:id="btnProx" layoutX="511.0" layoutY="343.0" mnemonicParsing="false" onAction="#onClickProx" text="Próximo" />
+      <RadioButton layoutX="383.0" layoutY="202.0" mnemonicParsing="false" text="Sim" />
+      <RadioButton layoutX="483.0" layoutY="202.0" mnemonicParsing="false" text="Não" />
+   </children>
+</AnchorPane>
